@@ -38,8 +38,7 @@
 	background-image: linear-gradient(to top, #262121 40%, black 100%);
 	background-color: #262121;
 	position: absolute;
-	top: 0;
-	left: 130px;
+	left: 160px;
 	animation: roundArond 2s linear infinite;
 }
 .recordStop {
@@ -49,7 +48,6 @@
 	background-image: linear-gradient(to top, #262121 40%, black 100%);
 	background-color: #262121;
 	position: absolute;
-	top: 0;
 	animation: roundArond 2s linear infinite;
 	animation-play-state: paused;
 }

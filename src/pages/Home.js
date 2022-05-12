@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Cover from "../components/Album/Cover";
+import Card from "../components/Album/Card";
 
-const Home = () => {
+const Home = (props) => {
 	return (
-		<div>
+		<>
 			<Cover imageUrl="https://i.pinimg.com/564x/4b/9f/01/4b9f01614d7709d3260a0150e959a580.jpg" />
-			<Cover imageUrl="https://i.pinimg.com/564x/98/dc/77/98dc77e43150c5801af122bc6f752ebe.jpg" />
-		</div>
+		</>
 	);
 };
 
