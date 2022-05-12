@@ -4,11 +4,16 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+import reducer, { initialState } from "./context/reducer";
+import { DataLayer } from "./context/DataLayer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<BrowserRouter>
-		<App />
+		<DataLayer initialState={initialState} reducer={reducer}>
+			<App />
+		</DataLayer>
 	</BrowserRouter>
 );
 
