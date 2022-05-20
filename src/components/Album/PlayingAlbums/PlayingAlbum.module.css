@@ -1,0 +1,67 @@
+.container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+
+.albumCover {
+	cursor: pointer;
+	height: 400px;
+	width: 400px;
+	filter: brightness(90%);
+	box-shadow: 0 15px 23px rgba(0, 0, 0, 0.7);
+	position: relative;
+	z-index: 1;
+	background-color: black;
+}
+
+.album {
+	position: relative;
+}
+
+.image {
+	height: 210px;
+	width: 210px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 10px solid #262121;
+	background-color: #262121;
+}
+
+.recordPlay {
+	width: 390px;
+	height: 390px;
+	border-radius: 50%;
+	background-image: linear-gradient(to top, #262121 40%, black 100%);
+	background-color: #262121;
+	border: 4px solid transparent;
+	position: absolute;
+	top: 5px;
+	left: 45%;
+	animation: roundArond 1s linear infinite;
+}
+
+.smallCircle {
+	background-color: antiquewhite;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@keyframes roundArond {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

@@ -33,3 +33,10 @@ code {
 	color: #ffffff;
 	transform: scale(0.95);
 }
+
+.albums {
+	overflow-y: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}

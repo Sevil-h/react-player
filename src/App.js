@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect, useContext } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import SpotifyWebApi from "spotify-web-api-js";
 import { getTokenFromUrl } from "./spotify";
@@ -36,7 +36,7 @@ function App() {
 				<Login />
 			) : (
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/" element={<Dashboard />} />
 				</Routes>
 			)}
 		</Layout>
