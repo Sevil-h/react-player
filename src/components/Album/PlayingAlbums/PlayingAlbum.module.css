@@ -65,3 +65,45 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.albumCover {
+		height: 300px;
+		width: 300px;
+	}
+	.image {
+		height: 100px;
+		width: 100px;
+	}
+
+	.recordPlay {
+		height: 290px;
+		width: 290px;
+	}
+
+	.smallCircle {
+		height: 60px;
+		width: 60px;
+	}
+}
+
+@media only screen and (max-width: 591px) {
+	.albumCover {
+		height: 200px;
+		width: 200px;
+	}
+	.image {
+		height: 70px;
+		width: 70px;
+	}
+
+	.recordPlay {
+		height: 190px;
+		width: 190px;
+	}
+
+	.smallCircle {
+		height: 40px;
+		width: 40px;
+	}
+}

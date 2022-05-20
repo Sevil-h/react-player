@@ -98,3 +98,20 @@
 		transform: rotate(360deg);
 	}
 }
+
+@media only screen and (max-width: 1024px) {
+	.albumCover {
+		height: 180px;
+		width: 180px;
+	}
+
+	.record {
+		height: 170px;
+		width: 170px;
+	}
+
+	.hover {
+		height: 180px;
+		width: 180px;
+	}
+}

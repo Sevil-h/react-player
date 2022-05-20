@@ -40,3 +40,15 @@ code {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+	.albums {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (max-width: 591px) {
+	.albums {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
